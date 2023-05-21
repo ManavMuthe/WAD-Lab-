@@ -1,0 +1,46 @@
+body{
+    /* background-color: rgb(234, 226, 15); */
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    width: 450px;
+    box-sizing: content-box;
+    background-color: #fff;
+    padding: .5rem 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.form h1{
+    text-align: center;
+}
+
+.information{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.information input{
+    padding: .5rem;
+}
+
+.registerbtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.registerbtn button {
+    padding: .5rem 1rem;
+}
+
+.registerbtn button a{
+    text-decoration: none;
+    color: #000;
+}
